@@ -1,0 +1,7 @@
+Modules/*
+!Modules/modules.md
+Scripts/*
+!Modules/scripts.md
+
+Configuration/Registration/*
+Configuration/Schema/*
