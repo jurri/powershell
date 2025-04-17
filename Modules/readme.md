@@ -1,0 +1,12 @@
+# List of Modules
+- AzureAD
+- ExchangeOnlineManagement
+- Pester
+- PowerToys
+- PowerShellGet
+- PSReadLine
+- PackageManagement
+- Microsoft.PowerShell.Operation.Validation
+- oh-my-posh
+- posh-git
+- Terminal-Icons

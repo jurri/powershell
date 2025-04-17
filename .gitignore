@@ -1,7 +1,7 @@
 Modules/*
-!Modules/modules.md
-Scripts/*
-!Modules/scripts.md
+!Modules/readme.md
+#Scripts/*
+#!Scripts/readme.md
 
 Configuration/Registration/*
 Configuration/Schema/*

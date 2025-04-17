@@ -1,0 +1,3 @@
+Add-VpnConnection -Name "<VPN-Connection-Name>" -ServerAddress "<VPN-SercerAddress>" -TunnelType IKEv2 -EncryptionLevel Required -AuthenticationMethod EAP -SplitTunneling -AllUserConnection
+Set-VpnConnectionIPsecConfiguration -ConnectionName "<VPN-Connection-Name>" -AuthenticationTransformConstants GCMAES256 -CipherTransformConstants GCMAES256 -EncryptionMethod AES256 -IntegrityCheckMethod SHA256 -DHGroup Group14 -PfsGroup None -PassThru -AllUserConnection
+Add-VpnConnectionRoute -ConnectionName "<VPN-Connection-Name>" -DestinationPrefix 192.168.219.0/24 -PassThru
